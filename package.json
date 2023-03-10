@@ -6,17 +6,32 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "server": "ts-node src/pages/api/index.ts",
+    "codegen": "graphql-codegen --config codegen.yml"
   },
   "dependencies": {
-    "@types/node": "18.15.0",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
     "eslint": "8.35.0",
     "eslint-config-next": "13.2.4",
+    "graphql": "^16.6.0",
+    "graphql-yoga": "^3.7.2",
     "next": "13.2.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "4.9.5"
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "3.2.2",
+    "@types/node": "18.15.0",
+    "autoprefixer": "10.4.14",
+    "cross-env": "7.0.3",
+    "postcss": "8.4.21",
+    "tailwindcss": "3.2.7",
+    "ts-node": "10.9.1",
+    "ts-node-dev": "2.0.0",
+    "typescript": "4.9.5",
+    "@graphql-codegen/typescript": "3.0.2",
+    "@graphql-codegen/typescript-resolvers": "3.1.1"
   }
 }
