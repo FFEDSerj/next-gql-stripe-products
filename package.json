@@ -9,12 +9,15 @@
     "lint": "next lint",
     "server": "ts-node src/pages/api/index.ts",
     "codegen": "graphql-codegen --config codegen.yml",
-    "db:generate": "prisma generate"
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev",
+    "db:studio": "prisma studio"
   },
   "dependencies": {
     "@prisma/client": "4.11.0",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
+    "currency-formatter": "1.5.9",
     "eslint": "8.35.0",
     "eslint-config-next": "13.2.4",
     "graphql": "^16.6.0",
@@ -27,6 +30,7 @@
     "@graphql-codegen/cli": "3.2.2",
     "@graphql-codegen/typescript": "3.0.2",
     "@graphql-codegen/typescript-resolvers": "3.1.1",
+    "@types/currency-formatter": "1.5.1",
     "@types/node": "18.15.0",
     "autoprefixer": "10.4.14",
     "cross-env": "7.0.3",

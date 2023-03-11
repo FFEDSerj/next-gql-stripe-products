@@ -10,6 +10,23 @@ export const schema = createSchema({
     type Cart {
       id: ID!
       totalItems: Int!
+      items: [CartItem!]!
+      subTotal: Money!
+    }
+
+    type Money {
+      formatted: String!
+      amount: Int!
+    }
+
+    type CartItem {
+      id: ID!
+      name: String!
+      description: String
+      unitTotal: Money!
+      lineTotal: Money!
+      quantity: Int!
+      image: String
     }
   `,
   resolvers,
