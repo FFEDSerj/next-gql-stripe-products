@@ -2,6 +2,8 @@ overwrite: true
 schema: "src/pages/api/schema.ts"
 generates:
   types.ts:
+    config: 
+      contextType: ./src/pages/api/index#GraphQLContext
     plugins:
       - "typescript"
       - "typescript-resolvers"
