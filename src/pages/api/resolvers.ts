@@ -1,6 +1,8 @@
+import { stripe } from "./../../../lib/stripe";
 import { findOrCreateCart } from "./../../../lib/cart";
 import { Resolvers } from "../../../types";
 import currencyFormatter from "currency-formatter";
+import { GraphQLError } from "graphql";
 
 const currencyCode = "USD";
 
@@ -174,6 +176,67 @@ export const resolvers: Resolvers = {
       }
 
       return findOrCreateCart(prisma, cartId);
+    },
+    createCheckoutSession: async (_, { input }, { prisma }) => {
+      const { cartId } = input;
+
+      const cart = await prisma.cart.findUnique({
+        where: {
+          id: cartId,
+        },
+      });
+
+      if (!cart) {
+        throw new GraphQLError("Invalid cart");
+      }
+
+      const cartItems = await prisma.cart
+        .findUnique({
+          where: {
+            id: cartId,
+          },
+        })
+        .items();
+
+      if (!cartItems || cartItems.length === 0) {
+        throw new GraphQLError("Cart is empty");
+      }
+
+      const line_items = cartItems.map((item) => ({
+        quantity: item.quantity,
+        price_data: {
+          currency: currencyCode,
+          unit_amount: item.price,
+          product_data: {
+            name: item.name,
+            description: item.description || undefined,
+            images: item.image ? [item.image] : [],
+          },
+        },
+      }));
+
+      let session;
+
+      try {
+        session = await stripe.checkout.sessions.create({
+          line_items,
+          mode: "payment",
+          metadata: {
+            cartId: cart.id,
+          },
+          success_url:
+            "http://localhost:3000/thankyou?session_id={CHECKOUT_SESSION_ID}",
+          cancel_url: "http://localhost:3000/cart?cancelled=true",
+        });
+      } catch (err) {
+        console.log(err);
+        return null;
+      }
+
+      return {
+        id: session.id,
+        url: session?.url,
+      };
     },
   },
 };

@@ -12,6 +12,7 @@ export const schema = createSchema({
       removeItem(input: RemoveFromCartInput!): Cart
       increaseCartItem(input: IncreaseCartItemInput!): Cart
       decreaseCartItem(input: DecreaseCartItemInput!): Cart
+      createCheckoutSession(input: CreateCheckoutSessionInput!): CheckoutSession
     }
 
     type Cart {
@@ -34,6 +35,15 @@ export const schema = createSchema({
       lineTotal: Money!
       quantity: Int!
       image: String
+    }
+
+    type CheckoutSession {
+      id: ID!
+      url: String
+    }
+
+    input CreateCheckoutSessionInput {
+      cartId: ID!
     }
 
     input AddToCartInput {
