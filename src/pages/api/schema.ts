@@ -11,6 +11,7 @@ export const schema = createSchema({
       addItem(input: AddToCartInput!): Cart
       removeItem(input: RemoveFromCartInput!): Cart
       increaseCartItem(input: IncreaseCartItemInput!): Cart
+      decreaseCartItem(input: DecreaseCartItemInput!): Cart
     }
 
     type Cart {
@@ -51,6 +52,11 @@ export const schema = createSchema({
     }
 
     input IncreaseCartItemInput {
+      id: ID!
+      cartId: ID!
+    }
+
+    input DecreaseCartItemInput {
       id: ID!
       cartId: ID!
     }
