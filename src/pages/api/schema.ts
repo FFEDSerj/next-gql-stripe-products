@@ -7,6 +7,10 @@ export const schema = createSchema({
       cart(id: ID!): Cart
     }
 
+    type Mutation {
+      addItem(input: AddToCartInput!): Cart
+    }
+
     type Cart {
       id: ID!
       totalItems: Int!
@@ -27,6 +31,16 @@ export const schema = createSchema({
       lineTotal: Money!
       quantity: Int!
       image: String
+    }
+
+    input AddToCartInput {
+      cartId: ID!
+      id: ID!
+      name: String!
+      description: String
+      image: String
+      price: Int!
+      quantity: Int = 1
     }
   `,
   resolvers,

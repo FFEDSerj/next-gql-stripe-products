@@ -1,3 +1,4 @@
+import { findOrCreateCart } from "./../../../lib/cart";
 import { Resolvers } from "../../../types";
 import currencyFormatter from "currency-formatter";
 
@@ -6,21 +7,7 @@ const currencyCode = "USD";
 export const resolvers: Resolvers = {
   Query: {
     cart: async (_, { id }, { prisma }) => {
-      let cart = await prisma.cart.findUnique({
-        where: {
-          id,
-        },
-      });
-
-      if (!cart) {
-        cart = await prisma.cart.create({
-          data: {
-            id,
-          },
-        });
-      }
-
-      return cart;
+      return await findOrCreateCart(prisma, id);
     },
   },
   Cart: {
@@ -68,6 +55,58 @@ export const resolvers: Resolvers = {
         }),
         amount,
       };
+    },
+  },
+  CartItem: {
+    unitTotal: (item) => {
+      const amount = item.price;
+
+      return {
+        amount,
+        formatted: currencyFormatter.format(amount / 100, {
+          code: currencyCode,
+        }),
+      };
+    },
+    lineTotal: (item) => {
+      const amount = item.quantity * item.price;
+
+      return {
+        amount,
+        formatted: currencyFormatter.format(amount / 100, {
+          code: currencyCode,
+        }),
+      };
+    },
+  },
+  Mutation: {
+    addItem: async (_, { input }, { prisma }) => {
+      const cart = await findOrCreateCart(prisma, input.cartId);
+
+      await prisma.cartItem.upsert({
+        create: {
+          cartId: cart.id,
+          id: input.id,
+          name: input.name,
+          price: input.price,
+          description: input.description,
+          image: input.image,
+          quantity: input.quantity || 1,
+        },
+        update: {
+          quantity: {
+            increment: input.quantity || 1,
+          },
+        },
+        where: {
+          id_cartId: {
+            cartId: cart.id,
+            id: input.id,
+          },
+        },
+      });
+
+      return cart;
     },
   },
 };
