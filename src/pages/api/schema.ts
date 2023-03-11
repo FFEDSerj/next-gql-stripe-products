@@ -9,6 +9,7 @@ export const schema = createSchema({
 
     type Mutation {
       addItem(input: AddToCartInput!): Cart
+      removeItem(input: RemoveFromCartInput!): Cart
     }
 
     type Cart {
@@ -41,6 +42,11 @@ export const schema = createSchema({
       image: String
       price: Int!
       quantity: Int = 1
+    }
+
+    input RemoveFromCartInput {
+      id: ID!
+      cartId: ID!
     }
   `,
   resolvers,
