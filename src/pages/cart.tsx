@@ -4,6 +4,7 @@ import { useGetCartQuery } from "../../types";
 
 const Cart: NextPage<IProps> = ({ cartId }) => {
   const { data } = useGetCartQuery({ variables: { id: cartId } });
+
   return (
     <div className="flex flex-col">
       <main className="p-8">
