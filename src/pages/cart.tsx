@@ -1,4 +1,5 @@
 import type { GetServerSideProps, NextPage } from "next";
+import { CartDetail } from "../../components/CartDetail";
 import { getCartId } from "../../lib/cart.client";
 import { useGetCartQuery } from "../../types";
 
@@ -10,11 +11,7 @@ const Cart: NextPage<IProps> = ({ cartId }) => {
       <main className="p-8">
         <div className="mx-auto max-w-xl space-y-8">
           <h1 className="text-4xl">Cart</h1>
-          <div>Items: {data?.cart?.totalItems}</div>
-          <div className="border-t pt-4 flex justify-between">
-            <div>Subtotal</div>
-            <div>{data?.cart?.subTotal.formatted}</div>
-          </div>
+          <CartDetail cart={data?.cart} />
         </div>
       </main>
     </div>

@@ -14,7 +14,9 @@ export const ProductItem = ({
         <div className="bg-white border-black border-b p-2 text-2xl font-semibold">
           {title}
         </div>
-        <div className="bg-white p-2 text-sm w-fit z-10">${price} USD</div>
+        <div className="bg-white p-2 text-sm w-fit z-10">
+          ${price / 100} USD
+        </div>
       </div>
       <Image
         className="w-auto h-auto object-cover transform transition duration-500 motion-safe:group-focus:scale-110 motion-safe:group-hover:scale-110"

@@ -2,7 +2,7 @@ import type { Product } from "../lib/products";
 import { ProductItem } from "./ProductItem";
 import { GetCartDocument, useAddToCartMutation } from "../types";
 import { getCookie } from "cookies-next";
-import { FormEvent, FormEventHandler } from "react";
+import { FormEvent } from "react";
 
 export function ProductDetails({ product }: { product: Product | null }) {
   const cartId = String(getCookie("cartId"));
