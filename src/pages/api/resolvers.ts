@@ -1,10 +1,12 @@
 import { stripe } from "./../../../lib/stripe";
-import { findOrCreateCart } from "./../../../lib/cart";
+import { findOrCreateCart, validateCartItems } from "./../../../lib/cart";
 import { Resolvers } from "../../../types";
 import currencyFormatter from "currency-formatter";
 import { GraphQLError } from "graphql";
+import { products } from "../../../lib/products";
+import { origin } from "../../../lib/client";
 
-const currencyCode = "USD";
+export const currencyCode = "USD";
 
 export const resolvers: Resolvers = {
   Query: {
@@ -202,18 +204,7 @@ export const resolvers: Resolvers = {
         throw new GraphQLError("Cart is empty");
       }
 
-      const line_items = cartItems.map((item) => ({
-        quantity: item.quantity,
-        price_data: {
-          currency: currencyCode,
-          unit_amount: item.price,
-          product_data: {
-            name: item.name,
-            description: item.description || undefined,
-            images: item.image ? [item.image] : [],
-          },
-        },
-      }));
+      const line_items = validateCartItems(products, cartItems);
 
       let session;
 
@@ -224,9 +215,8 @@ export const resolvers: Resolvers = {
           metadata: {
             cartId: cart.id,
           },
-          success_url:
-            "http://localhost:3000/thankyou?session_id={CHECKOUT_SESSION_ID}",
-          cancel_url: "http://localhost:3000/cart?cancelled=true",
+          success_url: `${origin}/thankyou?session_id={CHECKOUT_SESSION_ID}`,
+          cancel_url: `${origin}/cart?cancelled=true`,
         });
       } catch (err) {
         console.log(err);
