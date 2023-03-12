@@ -1,5 +1,6 @@
 overwrite: true
 schema: "src/pages/api/schema.ts"
+documents: "**/*.graphql"
 generates:
   types.ts:
     config: 
@@ -10,4 +11,6 @@ generates:
       contextType: ./src/pages/api/index#GraphQLContext
     plugins:
       - "typescript"
+      - "typescript-operations"
       - "typescript-resolvers"
+      - "typescript-react-apollo"

@@ -14,9 +14,11 @@
     "db:studio": "prisma studio"
   },
   "dependencies": {
+    "@apollo/client": "^3.7.10",
     "@prisma/client": "4.11.0",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
+    "cookies-next": "^2.1.1",
     "currency-formatter": "1.5.9",
     "eslint": "8.35.0",
     "eslint-config-next": "13.2.4",
@@ -26,15 +28,19 @@
     "raw-body": "^2.5.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "stripe": "11.14.0"
+    "stripe": "11.14.0",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "3.2.2",
     "@graphql-codegen/typescript": "3.0.2",
+    "@graphql-codegen/typescript-operations": "^3.0.2",
+    "@graphql-codegen/typescript-react-apollo": "^3.3.7",
     "@graphql-codegen/typescript-resolvers": "3.1.1",
     "@types/currency-formatter": "1.5.1",
     "@types/node": "18.15.0",
     "@types/stripe": "8.0.417",
+    "@types/uuid": "^9.0.1",
     "autoprefixer": "10.4.14",
     "cross-env": "7.0.3",
     "postcss": "8.4.21",
