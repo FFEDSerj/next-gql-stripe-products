@@ -1,7 +1,5 @@
-import { Inter } from "next/font/google";
+import { ReactNode } from "react";
 
-const inter = Inter({ subsets: ["latin"] });
-
-export default function Home() {
-  return <h1 className="text-purple-500 text-xl">Hello App</h1>;
+export default function Home({ children }: { children: ReactNode }) {
+  return <>{children}</>;
 }
