@@ -16,7 +16,7 @@ export const useClient = () => {
   const client = useMemo(
     () =>
       new ApolloClient({
-        uri: `http://localhost:3000/graphql`, // TODO figure out how to stick to the same port.
+        uri: `http://localhost:3001/api/graphql`, // TODO figure out how to stick to the same port.
         // uri: `${origin}/graphql`,
         cache: new InMemoryCache(),
       }),

@@ -26,7 +26,7 @@ export const validateCartItems = (
   cartItems: CartItem[]
 ): Stripe.Checkout.SessionCreateParams.LineItem[] => {
   const checkoutItems: Stripe.Checkout.SessionCreateParams.LineItem[] = [];
-  console.log(inventory, cartItems);
+
   for (const item of cartItems) {
     const product = inventory.find(({ id }) => id === item.id);
     if (!product) {

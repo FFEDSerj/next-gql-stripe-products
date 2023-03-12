@@ -13,9 +13,10 @@ import { PlusIcon } from "./PlusIcon";
 type CartItemProps = {
   item: CartItem;
   cartId: string;
+  isReadOnly?: boolean;
 };
 
-export function CartItem({ item, cartId }: CartItemProps) {
+export function CartItem({ item, cartId, isReadOnly }: CartItemProps) {
   const [increaseCartItem, { loading: increasingCartItem }] =
     useIncreaseCartItemMutation({
       refetchQueries: [GetCartDocument],
@@ -44,43 +45,49 @@ export function CartItem({ item, cartId }: CartItemProps) {
         </div>
       </div>
       <div className="flex gap-2">
-        <button
-          onClick={() =>
-            removeFromCart({
-              variables: { input: { id: item.id, cartId } },
-            })
-          }
-          disabled={removingFromCart}
-          className="p-1 font-light border border-neutral-700  hover:bg-black hover:text-white"
-        >
-          <CloseIcon />
-        </button>
+        {isReadOnly ? null : (
+          <button
+            onClick={() =>
+              removeFromCart({
+                variables: { input: { id: item.id, cartId } },
+              })
+            }
+            disabled={removingFromCart}
+            className="p-1 font-light border border-neutral-700  hover:bg-black hover:text-white"
+          >
+            <CloseIcon />
+          </button>
+        )}
         <div className="flex-1 flex">
           <div className="px-2 py-1 font-light border border-neutral-700 flex-1">
             {item.quantity}
           </div>
-          <button
-            onClick={() =>
-              decreaseCartItem({
-                variables: { input: { id: item.id, cartId } },
-              })
-            }
-            disabled={decreasingCartItem}
-            className="p-1 font-light border border-neutral-700  hover:bg-black hover:text-white"
-          >
-            <MinusIcon />
-          </button>
-          <button
-            onClick={() =>
-              increaseCartItem({
-                variables: { input: { id: item.id, cartId } },
-              })
-            }
-            disabled={increasingCartItem}
-            className="p-1 font-light border border-neutral-700  hover:bg-black hover:text-white"
-          >
-            <PlusIcon />
-          </button>
+          {isReadOnly ? null : (
+            <button
+              onClick={() =>
+                decreaseCartItem({
+                  variables: { input: { id: item.id, cartId } },
+                })
+              }
+              disabled={decreasingCartItem}
+              className="p-1 font-light border border-neutral-700  hover:bg-black hover:text-white"
+            >
+              <MinusIcon />
+            </button>
+          )}
+          {isReadOnly ? null : (
+            <button
+              onClick={() =>
+                increaseCartItem({
+                  variables: { input: { id: item.id, cartId } },
+                })
+              }
+              disabled={increasingCartItem}
+              className="p-1 font-light border border-neutral-700  hover:bg-black hover:text-white"
+            >
+              <PlusIcon />
+            </button>
+          )}
         </div>
       </div>
     </div>

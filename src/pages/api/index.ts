@@ -19,6 +19,6 @@ const yoga = createYoga({ schema, context: createContext() });
 
 const server = createServer(yoga);
 
-server.listen(3000, () => {
-  console.info("Server is running on http://localhost:3000/graphql");
+server.listen(3001, () => {
+  console.info("Server is running on http://localhost:3001/api/graphql");
 });
