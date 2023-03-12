@@ -15,7 +15,11 @@ export const createContext = async (): Promise<GraphQLContext> => {
   };
 };
 
-const yoga = createYoga({ schema, context: createContext() });
+const yoga = createYoga({
+  schema,
+  context: createContext(),
+  graphqlEndpoint: "/api/graphql",
+});
 
 const server = createServer(yoga);
 
