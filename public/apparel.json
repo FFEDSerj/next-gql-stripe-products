@@ -1,9 +1,8 @@
 [
   {
-    "id": "8d49784e-e88d-464d-b224-07bc43d3a969",
     "Handle": "ocean-blue-shirt",
     "Title": "Ocean Blue Shirt",
-    "Body (HTML)": "Ocean blue cotton shirt with a narrow collar and buttons down the front and long sleeves. Comfortable fit and tiled kalidoscope patterns. ",
+    "Body (HTML)": "Ocean blue cotton shirt with a narrow collar and buttons down the front and long sleeves. Comfortable fit and tiled kalidoscope patterns.",
     "Vendor": "partners-demo",
     "Type": "",
     "Tags": "men",
@@ -20,7 +19,7 @@
     "Variant Inventory Qty": 1,
     "Variant Inventory Policy": "deny",
     "Variant Fulfillment Service": "manual",
-    "Variant Price": 50,
+    "Variant Price": 5000,
     "Variant Compare At Price": "",
     "Variant Requires Shipping": true,
     "Variant Taxable": true,
@@ -46,13 +45,13 @@
     "Google Shopping / Custom Label 4": "",
     "Variant Image": "",
     "Variant Weight Unit": "kg",
-    "Variant Tax Code\r": "\r"
+    "Variant Tax Code": "",
+    "id": "8d49784e-e88d-464d-b224-07bc43d3a969"
   },
   {
-    "id": "9d024414-f279-48ce-af31-5a399580902b",
     "Handle": "classic-varsity-top",
     "Title": "Classic Varsity Top",
-    "Body (HTML)": "Womens casual varsity top, This grey and black buttoned top is a sport-inspired piece complete with an embroidered letter. ",
+    "Body (HTML)": "Womens casual varsity top, This grey and black buttoned top is a sport-inspired piece complete with an embroidered letter.",
     "Vendor": "partners-demo",
     "Type": "",
     "Tags": "women",
@@ -69,7 +68,7 @@
     "Variant Inventory Qty": 1,
     "Variant Inventory Policy": "deny",
     "Variant Fulfillment Service": "manual",
-    "Variant Price": 60,
+    "Variant Price": 6000,
     "Variant Compare At Price": "",
     "Variant Requires Shipping": true,
     "Variant Taxable": true,
@@ -95,10 +94,10 @@
     "Google Shopping / Custom Label 4": "",
     "Variant Image": "",
     "Variant Weight Unit": "kg",
-    "Variant Tax Code\r": "\r"
+    "Variant Tax Code": "",
+    "id": "242d8a1d-6d37-4c1a-90ba-ec01d7f57d8c"
   },
   {
-    "id": "c89c3d6c-5f84-4d39-b6bc-639e7357dfc5",
     "Handle": "classic-varsity-top",
     "Title": "",
     "Body (HTML)": "",
@@ -118,7 +117,7 @@
     "Variant Inventory Qty": 1,
     "Variant Inventory Policy": "deny",
     "Variant Fulfillment Service": "manual",
-    "Variant Price": 60,
+    "Variant Price": 6000,
     "Variant Compare At Price": "",
     "Variant Requires Shipping": true,
     "Variant Taxable": true,
@@ -144,10 +143,10 @@
     "Google Shopping / Custom Label 4": "",
     "Variant Image": "",
     "Variant Weight Unit": "kg",
-    "Variant Tax Code\r": "\r"
+    "Variant Tax Code": "",
+    "id": "e92b6ec1-063b-466d-925e-e6354364b7f9"
   },
   {
-    "id": "d338ce79-65a8-4f82-b775-627d8985719c",
     "Handle": "classic-varsity-top",
     "Title": "",
     "Body (HTML)": "",
@@ -167,7 +166,7 @@
     "Variant Inventory Qty": 1,
     "Variant Inventory Policy": "deny",
     "Variant Fulfillment Service": "manual",
-    "Variant Price": 60,
+    "Variant Price": 6000,
     "Variant Compare At Price": "",
     "Variant Requires Shipping": true,
     "Variant Taxable": true,
@@ -193,13 +192,13 @@
     "Google Shopping / Custom Label 4": "",
     "Variant Image": "",
     "Variant Weight Unit": "kg",
-    "Variant Tax Code\r": "\r"
+    "Variant Tax Code": "",
+    "id": "0fb759b1-d0de-4a08-8f8e-34dec0b646df"
   },
   {
-    "id": "c8c09522-2bcd-40a2-80f2-a0c6b1ef5bbd",
     "Handle": "yellow-wool-jumper",
     "Title": "Yellow Wool Jumper",
-    "Body (HTML)": "Knitted jumper in a soft wool blend with low dropped shoulders and wide sleeves and think cuffs. Perfect for keeping warm during Fall. ",
+    "Body (HTML)": "Knitted jumper in a soft wool blend with low dropped shoulders and wide sleeves and think cuffs. Perfect for keeping warm during Fall.",
     "Vendor": "partners-demo",
     "Type": "",
     "Tags": "women",
@@ -216,7 +215,7 @@
     "Variant Inventory Qty": 1,
     "Variant Inventory Policy": "deny",
     "Variant Fulfillment Service": "manual",
-    "Variant Price": 80,
+    "Variant Price": 8000,
     "Variant Compare At Price": "",
     "Variant Requires Shipping": true,
     "Variant Taxable": true,
@@ -242,13 +241,13 @@
     "Google Shopping / Custom Label 4": "",
     "Variant Image": "",
     "Variant Weight Unit": "kg",
-    "Variant Tax Code\r": "\r"
+    "Variant Tax Code": "",
+    "id": "620e6be3-1890-49f9-8856-807583a2aed6"
   },
   {
-    "id": "be923758-7ded-48c8-9cf8-77955c1aad9a",
     "Handle": "floral-white-top",
     "Title": "Floral White Top",
-    "Body (HTML)": "Stylish sleeveless white top with a floral pattern. ",
+    "Body (HTML)": "Stylish sleeveless white top with a floral pattern.",
     "Vendor": "partners-demo",
     "Type": "",
     "Tags": "women",
@@ -265,7 +264,7 @@
     "Variant Inventory Qty": 1,
     "Variant Inventory Policy": "deny",
     "Variant Fulfillment Service": "manual",
-    "Variant Price": 75,
+    "Variant Price": 7500,
     "Variant Compare At Price": "",
     "Variant Requires Shipping": true,
     "Variant Taxable": true,
@@ -291,13 +290,13 @@
     "Google Shopping / Custom Label 4": "",
     "Variant Image": "",
     "Variant Weight Unit": "kg",
-    "Variant Tax Code\r": "\r"
+    "Variant Tax Code": "",
+    "id": "f9501c22-486e-48e7-85cc-affd86e64132"
   },
   {
-    "id": "8f96d9cc-d27f-44e9-9b38-18c0feaef3b1",
     "Handle": "striped-silk-blouse",
     "Title": "Striped Silk Blouse",
-    "Body (HTML)": "Ultra-stylish black and red striped silk blouse with buckle collar and matching button pants. ",
+    "Body (HTML)": "Ultra-stylish black and red striped silk blouse with buckle collar and matching button pants.",
     "Vendor": "partners-demo",
     "Type": "",
     "Tags": "women",
@@ -314,7 +313,7 @@
     "Variant Inventory Qty": 1,
     "Variant Inventory Policy": "deny",
     "Variant Fulfillment Service": "manual",
-    "Variant Price": 50,
+    "Variant Price": 5000,
     "Variant Compare At Price": "",
     "Variant Requires Shipping": true,
     "Variant Taxable": true,
@@ -340,13 +339,13 @@
     "Google Shopping / Custom Label 4": "",
     "Variant Image": "",
     "Variant Weight Unit": "kg",
-    "Variant Tax Code\r": "\r"
+    "Variant Tax Code": "",
+    "id": "25e718bf-69ea-4339-81ad-8f10f26cf5a3"
   },
   {
-    "id": "b3f21963-d4ce-46bd-b21b-a772308cbefa",
     "Handle": "classic-leather-jacket",
     "Title": "Classic Leather Jacket",
-    "Body (HTML)": "Womans zipped leather jacket. Adjustable belt for a comfortable fit, complete with shoulder pads and front zip pocket. ",
+    "Body (HTML)": "Womans zipped leather jacket. Adjustable belt for a comfortable fit, complete with shoulder pads and front zip pocket.",
     "Vendor": "partners-demo",
     "Type": "",
     "Tags": "women",
@@ -363,7 +362,7 @@
     "Variant Inventory Qty": 1,
     "Variant Inventory Policy": "deny",
     "Variant Fulfillment Service": "manual",
-    "Variant Price": 80,
+    "Variant Price": 8000,
     "Variant Compare At Price": "",
     "Variant Requires Shipping": true,
     "Variant Taxable": true,
@@ -389,10 +388,10 @@
     "Google Shopping / Custom Label 4": "",
     "Variant Image": "",
     "Variant Weight Unit": "kg",
-    "Variant Tax Code\r": "\r"
+    "Variant Tax Code": "",
+    "id": "ef0db015-429e-43aa-8698-c036885a8f56"
   },
   {
-    "id": "e3c93f7f-1693-4246-a61f-0b320b09e480",
     "Handle": "dark-denim-top",
     "Title": "Dark Denim Top",
     "Body (HTML)": "Classic dark denim top with chest pockets, long sleeves with buttoned cuffs, and a ripped hem effect.",
@@ -412,7 +411,7 @@
     "Variant Inventory Qty": 1,
     "Variant Inventory Policy": "deny",
     "Variant Fulfillment Service": "manual",
-    "Variant Price": 60,
+    "Variant Price": 6000,
     "Variant Compare At Price": "",
     "Variant Requires Shipping": true,
     "Variant Taxable": true,
@@ -438,10 +437,10 @@
     "Google Shopping / Custom Label 4": "",
     "Variant Image": "",
     "Variant Weight Unit": "kg",
-    "Variant Tax Code\r": "\r"
+    "Variant Tax Code": "",
+    "id": "0dce4cc0-3f69-453f-a8c3-02196ce559ac"
   },
   {
-    "id": "3b4cf2c4-2d4f-40f5-81e6-7b4749f21f1c",
     "Handle": "navy-sport-jacket",
     "Title": "Navy Sports Jacket",
     "Body (HTML)": "Long-sleeved navy waterproof jacket in thin, polyester fabric with a soft mesh inside. The durable water-repellent finish means you'll be kept comfortable and protected when out in all weathers.",
@@ -461,7 +460,7 @@
     "Variant Inventory Qty": 1,
     "Variant Inventory Policy": "deny",
     "Variant Fulfillment Service": "manual",
-    "Variant Price": 60,
+    "Variant Price": 6000,
     "Variant Compare At Price": "",
     "Variant Requires Shipping": true,
     "Variant Taxable": true,
@@ -487,10 +486,10 @@
     "Google Shopping / Custom Label 4": "",
     "Variant Image": "",
     "Variant Weight Unit": "kg",
-    "Variant Tax Code\r": "\r"
+    "Variant Tax Code": "",
+    "id": "999dda6e-e0ef-457a-96aa-fdc3afb8768f"
   },
   {
-    "id": "44af5c64-168d-4bd3-9bbf-0556ee0e4c1f",
     "Handle": "dark-winter-jacket",
     "Title": "Soft Winter Jacket",
     "Body (HTML)": "Thick black winter jacket, with soft fleece lining. Perfect for those cold weather days.",
@@ -510,7 +509,7 @@
     "Variant Inventory Qty": 1,
     "Variant Inventory Policy": "deny",
     "Variant Fulfillment Service": "manual",
-    "Variant Price": 50,
+    "Variant Price": 5000,
     "Variant Compare At Price": "",
     "Variant Requires Shipping": true,
     "Variant Taxable": true,
@@ -536,13 +535,13 @@
     "Google Shopping / Custom Label 4": "",
     "Variant Image": "",
     "Variant Weight Unit": "kg",
-    "Variant Tax Code\r": "\r"
+    "Variant Tax Code": "",
+    "id": "4c53813a-6fcf-49b4-a445-57a57c323d0b"
   },
   {
-    "id": "5377b05b-3a9b-428c-8bc7-419f09683929",
     "Handle": "black-leather-bag",
     "Title": "Black Leather Bag",
-    "Body (HTML)": "Womens black leather bag, with ample space. Can be worn over the shoulder, or remove straps to carry in your hand. ",
+    "Body (HTML)": "Womens black leather bag, with ample space. Can be worn over the shoulder, or remove straps to carry in your hand.",
     "Vendor": "partners-demo",
     "Type": "",
     "Tags": "women",
@@ -559,7 +558,7 @@
     "Variant Inventory Qty": 1,
     "Variant Inventory Policy": "deny",
     "Variant Fulfillment Service": "manual",
-    "Variant Price": 30,
+    "Variant Price": 3000,
     "Variant Compare At Price": "",
     "Variant Requires Shipping": true,
     "Variant Taxable": true,
@@ -585,10 +584,10 @@
     "Google Shopping / Custom Label 4": "",
     "Variant Image": "",
     "Variant Weight Unit": "kg",
-    "Variant Tax Code\r": "\r"
+    "Variant Tax Code": "",
+    "id": "bda37e7c-3c2f-4ff9-9828-369384f93185"
   },
   {
-    "id": "e9ce05e3-6f8d-438b-b1a2-c9c716082f89",
     "Handle": "zipped-jacket",
     "Title": "Zipped Jacket",
     "Body (HTML)": "Dark navy and light blue men's zipped waterproof jacket with an outer zipped chestpocket for easy storeage.",
@@ -608,7 +607,7 @@
     "Variant Inventory Qty": 1,
     "Variant Inventory Policy": "deny",
     "Variant Fulfillment Service": "manual",
-    "Variant Price": 65,
+    "Variant Price": 6500,
     "Variant Compare At Price": "",
     "Variant Requires Shipping": true,
     "Variant Taxable": true,
@@ -634,10 +633,10 @@
     "Google Shopping / Custom Label 4": "",
     "Variant Image": "",
     "Variant Weight Unit": "kg",
-    "Variant Tax Code\r": "\r"
+    "Variant Tax Code": "",
+    "id": "ac71f588-bc3d-4253-9e0a-033894bbdb7c"
   },
   {
-    "id": "e2d1c745-c02b-4a38-a4e7-5dfb9add0092",
     "Handle": "silk-summer-top",
     "Title": "Silk Summer Top",
     "Body (HTML)": "Silk womens top with short sleeves and number pattern.",
@@ -657,7 +656,7 @@
     "Variant Inventory Qty": 1,
     "Variant Inventory Policy": "deny",
     "Variant Fulfillment Service": "manual",
-    "Variant Price": 70,
+    "Variant Price": 7000,
     "Variant Compare At Price": "",
     "Variant Requires Shipping": true,
     "Variant Taxable": true,
@@ -683,13 +682,13 @@
     "Google Shopping / Custom Label 4": "",
     "Variant Image": "",
     "Variant Weight Unit": "kg",
-    "Variant Tax Code\r": "\r"
+    "Variant Tax Code": "",
+    "id": "3fcac6ec-9262-4742-8fb0-693f6b34c566"
   },
   {
-    "id": "a5dacf7e-67ee-4513-88db-a255cbfbaceb",
     "Handle": "longsleeve-cotton-top",
     "Title": "Long Sleeve Cotton Top",
-    "Body (HTML)": "Black cotton womens top, with long sleeves, no collar and a thick hem. ",
+    "Body (HTML)": "Black cotton womens top, with long sleeves, no collar and a thick hem.",
     "Vendor": "partners-demo",
     "Type": "",
     "Tags": "women",
@@ -706,7 +705,7 @@
     "Variant Inventory Qty": 1,
     "Variant Inventory Policy": "deny",
     "Variant Fulfillment Service": "manual",
-    "Variant Price": 50,
+    "Variant Price": 5000,
     "Variant Compare At Price": "",
     "Variant Requires Shipping": true,
     "Variant Taxable": true,
@@ -732,10 +731,10 @@
     "Google Shopping / Custom Label 4": "",
     "Variant Image": "",
     "Variant Weight Unit": "kg",
-    "Variant Tax Code\r": "\r"
+    "Variant Tax Code": "",
+    "id": "5182537b-4831-41ba-8837-07f4b73da9ea"
   },
   {
-    "id": "f9b45edd-4741-4aad-a756-395cd4a7b8c7",
     "Handle": "chequered-red-shirt",
     "Title": "Chequered Red Shirt",
     "Body (HTML)": "Classic mens plaid flannel shirt with long sleeves, in chequered style, with two chest pockets.",
@@ -755,7 +754,7 @@
     "Variant Inventory Qty": 1,
     "Variant Inventory Policy": "deny",
     "Variant Fulfillment Service": "manual",
-    "Variant Price": 50,
+    "Variant Price": 5000,
     "Variant Compare At Price": "",
     "Variant Requires Shipping": true,
     "Variant Taxable": true,
@@ -781,13 +780,13 @@
     "Google Shopping / Custom Label 4": "",
     "Variant Image": "",
     "Variant Weight Unit": "kg",
-    "Variant Tax Code\r": "\r"
+    "Variant Tax Code": "",
+    "id": "1417a483-ad16-4f5a-9ae5-8d6020e261c2"
   },
   {
-    "id": "b11818ac-811c-468c-be2c-f5a32b7a9aa0",
     "Handle": "white-cotton-shirt",
     "Title": "White Cotton Shirt",
-    "Body (HTML)": "Plain white cotton long sleeved shirt with loose collar. Small buttons and front pocket. ",
+    "Body (HTML)": "Plain white cotton long sleeved shirt with loose collar. Small buttons and front pocket.",
     "Vendor": "partners-demo",
     "Type": "",
     "Tags": "women",
@@ -804,7 +803,7 @@
     "Variant Inventory Qty": 1,
     "Variant Inventory Policy": "deny",
     "Variant Fulfillment Service": "manual",
-    "Variant Price": 30,
+    "Variant Price": 3000,
     "Variant Compare At Price": "",
     "Variant Requires Shipping": true,
     "Variant Taxable": true,
@@ -830,10 +829,10 @@
     "Google Shopping / Custom Label 4": "",
     "Variant Image": "",
     "Variant Weight Unit": "kg",
-    "Variant Tax Code\r": "\r"
+    "Variant Tax Code": "",
+    "id": "b72a854c-3aae-4479-a74a-5fe9b20d2924"
   },
   {
-    "id": "8e3cd21e-da1a-4efa-b1b3-98505d247325",
     "Handle": "olive-green-jacket",
     "Title": "Olive Green Jacket",
     "Body (HTML)": "Loose fitting olive green jacket with buttons and large pockets. Multicoloured pattern on the front of the shoulders.",
@@ -853,7 +852,7 @@
     "Variant Inventory Qty": 1,
     "Variant Inventory Policy": "deny",
     "Variant Fulfillment Service": "manual",
-    "Variant Price": 65,
+    "Variant Price": 6500,
     "Variant Compare At Price": "",
     "Variant Requires Shipping": true,
     "Variant Taxable": true,
@@ -879,10 +878,10 @@
     "Google Shopping / Custom Label 4": "",
     "Variant Image": "",
     "Variant Weight Unit": "kg",
-    "Variant Tax Code\r": "\r"
+    "Variant Tax Code": "",
+    "id": "85a917a2-3f01-4490-b58d-965b39d333bb"
   },
   {
-    "id": "15f3c7f9-7c29-4704-9584-d01d03f0c7cc",
     "Handle": "blue-silk-tuxedo",
     "Title": "Blue Silk Tuxedo",
     "Body (HTML)": "Blue silk tuxedo with marbled aquatic pattern and dark lining. Sleeves are complete with rounded hem and black buttons.",
@@ -902,7 +901,7 @@
     "Variant Inventory Qty": 1,
     "Variant Inventory Policy": "deny",
     "Variant Fulfillment Service": "manual",
-    "Variant Price": 70,
+    "Variant Price": 7000,
     "Variant Compare At Price": "",
     "Variant Requires Shipping": true,
     "Variant Taxable": true,
@@ -928,10 +927,10 @@
     "Google Shopping / Custom Label 4": "",
     "Variant Image": "",
     "Variant Weight Unit": "kg",
-    "Variant Tax Code\r": "\r"
+    "Variant Tax Code": "",
+    "id": "56d2caa7-95c6-4aa3-8261-1d0d537dfbe9"
   },
   {
-    "id": "d99f2e86-42d5-4349-9866-302a9cae2eb8",
     "Handle": "red-sports-tee",
     "Title": "Red Sports Tee",
     "Body (HTML)": "Women's red sporty t-shirt with colorful details on the sleeves and a small white pocket.",
@@ -951,7 +950,7 @@
     "Variant Inventory Qty": 1,
     "Variant Inventory Policy": "deny",
     "Variant Fulfillment Service": "manual",
-    "Variant Price": 50,
+    "Variant Price": 5000,
     "Variant Compare At Price": "",
     "Variant Requires Shipping": true,
     "Variant Taxable": true,
@@ -977,13 +976,13 @@
     "Google Shopping / Custom Label 4": "",
     "Variant Image": "",
     "Variant Weight Unit": "kg",
-    "Variant Tax Code\r": "\r"
+    "Variant Tax Code": "",
+    "id": "ba291431-d002-4fcc-8ab1-4d5695ab4309"
   },
   {
-    "id": "e20ac88e-3c9a-4464-a03f-005227861ccd",
     "Handle": "striped-skirt-and-top",
     "Title": "Striped Skirt and Top",
-    "Body (HTML)": "Black cotton top with matching striped skirt. ",
+    "Body (HTML)": "Black cotton top with matching striped skirt.",
     "Vendor": "partners-demo",
     "Type": "",
     "Tags": "women",
@@ -1000,7 +999,7 @@
     "Variant Inventory Qty": 1,
     "Variant Inventory Policy": "deny",
     "Variant Fulfillment Service": "manual",
-    "Variant Price": 50,
+    "Variant Price": 5000,
     "Variant Compare At Price": "",
     "Variant Requires Shipping": true,
     "Variant Taxable": true,
@@ -1026,13 +1025,13 @@
     "Google Shopping / Custom Label 4": "",
     "Variant Image": "",
     "Variant Weight Unit": "kg",
-    "Variant Tax Code\r": "\r"
+    "Variant Tax Code": "",
+    "id": "6820d7a8-1ebc-419e-ab30-2720b8aedb46"
   },
   {
-    "id": "af3954a1-6262-4695-851b-4147fe0742da",
     "Handle": "led-high-tops",
     "Title": "LED High Tops",
-    "Body (HTML)": "Black high top shoes with green LED lights in the sole, tied up with laces and a buckle. ",
+    "Body (HTML)": "Black high top shoes with green LED lights in the sole, tied up with laces and a buckle.",
     "Vendor": "partners-demo",
     "Type": "",
     "Tags": "men",
@@ -1049,7 +1048,7 @@
     "Variant Inventory Qty": 1,
     "Variant Inventory Policy": "deny",
     "Variant Fulfillment Service": "manual",
-    "Variant Price": 80,
+    "Variant Price": 8000,
     "Variant Compare At Price": "",
     "Variant Requires Shipping": true,
     "Variant Taxable": true,
@@ -1074,6 +1073,8 @@
     "Google Shopping / Custom Label 3": "",
     "Google Shopping / Custom Label 4": "",
     "Variant Image": "",
-    "Variant Weight Unit": "kg,"
+    "Variant Weight Unit": "kg",
+    "Variant Tax Code": "",
+    "id": "3895943d-d3b8-4fa8-be5a-24be0252d529"
   }
 ]
